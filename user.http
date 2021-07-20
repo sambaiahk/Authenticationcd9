@@ -1,0 +1,35 @@
+###
+post http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "sambaiah",
+  "name": "samba",
+  "password": "samsan1315",
+  "gender": "male",
+  "location": "vijayawada"
+}
+
+
+
+###
+
+POST http://localhost:3000/login
+
+Content-Type: application/json
+
+{
+    "username": "adam_richard",
+    "password": "samsan1315"
+}
+
+###
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
+}
+
